@@ -1,11 +1,11 @@
 package routes
 
 import (
+	"github.com/fajarardiyanto/boiler-monolith-rest-api/api"
+	"github.com/fajarardiyanto/boiler-monolith-rest-api/internal/response"
+	"github.com/fajarardiyanto/boiler-monolith-rest-api/middleware"
 	"github.com/gorilla/mux"
 	"net/http"
-	"privy/api"
-	"privy/internal/response"
-	"privy/middleware"
 )
 
 type Routes struct {

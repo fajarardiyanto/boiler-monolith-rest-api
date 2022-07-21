@@ -2,14 +2,14 @@ package main
 
 import (
 	"fmt"
+	logger2 "github.com/fajarardiyanto/boiler-monolith-rest-api/pkg/logger"
+	"github.com/fajarardiyanto/boiler-monolith-rest-api/pkg/parsing"
+	"github.com/fajarardiyanto/boiler-monolith-rest-api/routes"
 	"github.com/gorilla/mux"
 	"github.com/sirupsen/logrus"
 	"net/http"
 	"os"
 	"os/signal"
-	logger2 "privy/pkg/logger"
-	"privy/pkg/parsing"
-	"privy/routes"
 	"syscall"
 )
 

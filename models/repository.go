@@ -1,6 +1,6 @@
 package models
 
-import "privy/interfaces"
+import "github.com/fajarardiyanto/boiler-monolith-rest-api/interfaces"
 
 type PostRepository interface {
 	GetPost() ([]interfaces.Post, error)

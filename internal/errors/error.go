@@ -1,9 +1,9 @@
 package errors
 
 import (
+	"github.com/fajarardiyanto/boiler-monolith-rest-api/internal/options"
 	"github.com/jwalton/gchalk"
 	"github.com/sirupsen/logrus"
-	"privy/internal/options"
 	"strconv"
 )
 

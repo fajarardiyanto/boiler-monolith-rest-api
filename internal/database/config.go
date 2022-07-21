@@ -1,10 +1,10 @@
 package database
 
 import (
+	"github.com/fajarardiyanto/boiler-monolith-rest-api/interfaces"
+	"github.com/fajarardiyanto/boiler-monolith-rest-api/pkg/parsing"
 	"github.com/joho/godotenv"
 	"github.com/sirupsen/logrus"
-	"privy/interfaces"
-	"privy/pkg/parsing"
 )
 
 var config interfaces.SQLConfig

@@ -2,13 +2,13 @@ package database
 
 import (
 	"fmt"
+	"github.com/fajarardiyanto/boiler-monolith-rest-api/interfaces"
 	"github.com/sirupsen/logrus"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 	"gorm.io/gorm/logger"
 	"log"
 	"os"
-	"privy/interfaces"
 	"time"
 )
 

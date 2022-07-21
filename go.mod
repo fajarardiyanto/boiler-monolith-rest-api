@@ -1,4 +1,4 @@
-module privy
+module github.com/fajarardiyanto/boiler-monolith-rest-api
 
 go 1.17
 

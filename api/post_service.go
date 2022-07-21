@@ -1,10 +1,10 @@
 package api
 
 import (
+	"github.com/fajarardiyanto/boiler-monolith-rest-api/internal/response"
+	"github.com/fajarardiyanto/boiler-monolith-rest-api/models"
 	"github.com/sirupsen/logrus"
 	"net/http"
-	"privy/internal/response"
-	"privy/models"
 )
 
 type PostServiceControllers struct {

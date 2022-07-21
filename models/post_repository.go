@@ -3,11 +3,11 @@ package models
 import (
 	"context"
 	"fmt"
+	"github.com/fajarardiyanto/boiler-monolith-rest-api/interfaces"
+	"github.com/fajarardiyanto/boiler-monolith-rest-api/internal/database"
+	"github.com/fajarardiyanto/boiler-monolith-rest-api/internal/errors"
 	"gorm.io/gorm"
 	"net/http"
-	"privy/interfaces"
-	"privy/internal/database"
-	"privy/internal/errors"
 	"time"
 )
 

@@ -1,8 +1,8 @@
 package database
 
 import (
+	"github.com/fajarardiyanto/boiler-monolith-rest-api/interfaces"
 	log "github.com/sirupsen/logrus"
-	"privy/interfaces"
 )
 
 var DBConn interfaces.SQL
