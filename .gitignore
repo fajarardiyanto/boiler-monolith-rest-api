@@ -1,0 +1,23 @@
+# Most editor use configuration
+.idea/
+.vscode/
+# Binary directory compilation
+bin/
+# Config dynamic generated
+generated/
+# Devtest
+devtest/
+# archive
+*.zip
+*.7z
+*.tar.gz
+# Default logs folder
+logs/
+*.out
+certs
+replace.sh
+letsencrypt/
+dbstore/
+# config
+.env
+*.example
